@@ -1,0 +1,48 @@
+ .form-control {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 10px 25px;
+    font-size: 16px;
+    margin: 10px -35px;
+    transition: all 0.3s ease;
+    cursor: pointer; 
+}
+
+.form-control:focus {
+    box-shadow: 0 0 20px rgb(51, 49, 49);
+}
+
+ textarea.form-control {
+    height: 140px;
+}
+
+ .contact-form .btn {
+    height: 50px;
+    padding: 0 50px;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: 1px solid white;
+    background: gray;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+#margin {
+    margin-top: 54px;
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis';
+}
+
+body {
+  font-family: Helvetica, "Trebuchet MS", sans-serif;
+  background: #fff url(../img/bg.png);
+  margin: 15px;
+}
+
+#container {
+  background: #000000 url(../img/bg-container.png) top center repeat-y;
+  background-size: cover;
+  margin: 0 auto;
+  min-width: 740px;
+  max-width: 1780px;
+}
+
+#top {
+  position: relative;
+  background: #778899;
+  height: 15.4em;
+  min-height: 250px;
+}
+
+#area-logo {
+  
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background: url(https://cdn-az.allevents.in/events7/banners/2c58d0e36547a2023a43f6e974e1764802712876f3a62222e09c9134249c6067-rimg-w960-h372-gmir.jpg?v=1682033053) no-repeat;
+  background-size: 1500px 370px;
+  z-index: 1;
+}
+
+#area-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 450px;
+  height: 250px;
+  background: url(../img/topo-imagem-lateral.png);
+  z-index: 2;
+}
+
+#container-menu {
+  margin-left: 90px;
+  margin-right: 15px;
+  padding-top: 15px;
+}
+
+#text-menu {
+  border-bottom: 1px solid whitesmoke;
+  border-top: 1px solid whitesmoke;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.8em;
+  color: whitesmoke;
+}
+
+#text-menu .text {
+  float: left;
+  line-height: 2.1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.start {
+  text-transform: uppercase;
+  background: black;
+  color: whitesmoke;
+  padding: 5px 10px;
+  float: right;
+}
+
+a.start:hover{
+  color: #8a8888;
+}
+
+/*------------Menu------------*/
+
+#menu {
+  margin-top: 15px;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+ul#navegation {
+  float: left;
+}
+
+ul#navegation a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  color: whitesmoke;
+  line-height: 30px;
+}
+
+ul#navegation a:hover {
+  background: gray;
+  border-radius: 20px;
+}
+
+.menu-picture {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 400px;
+  float: right;
+  padding-top: 20px;
+}
+
+
+
+/*Main page text area*/
+
+#main-area {
+  float: left;
+  width: 50%;
+  background: url(../img/bg-area-principal.png) top left repeat-x;
+  padding: 15px 0px;
+}
+
+#second-area {
+  float: right;
+  width: 50%;
+  background: url(../img/bg-area-lateral.png) top left repeat-x;
+  padding: 20px 0px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#footer {
+  clear: both;
+  padding: 16px;
+  background: #fff url(../img/bg-rodape.png) repeat-x top;
+  color: #42413c;
+}
+
+/* Text */
+
+h2 {
+  color: black;
+  font-size: 1.2em;
+  padding: 5px 0px;
+  font-family: 'Righteous', cursive;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+}
+
+
+p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.color {
+  color: #8a8888;
+}
+
+
+/*Second area*/
+
+
+#news li{ 
+  padding: 15px;
+  border-bottom: 1px solid whitesmoke;
+  height: 6em;
+}
+
+#news li a img {
+  float: left;
+  margin-right: 8px;
+}
+
+#news li a p{
+ font-size: 1.0em;
+ color: whitesmoke;
+ height: auto;
+}
+
+#news li a h3 {
+  font-size: 1em;
+  color: whitesmoke;
+  padding: 5px 0px;
+  background: url(../img/ornamento.png) no-repeat center right;
+}
+
+#news li:hover {
+  background: #8a8888;
+  cursor: pointer;
+}
